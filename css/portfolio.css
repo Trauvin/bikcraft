@@ -1,0 +1,22 @@
+.interna_produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produtos {
+  width: 100%;
+  background: #000;
+  height: 672px;
+}
+
+.preto {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  color: #000;
+  line-height: 25px;
+}
+
+.produtos .container div:last-child {
+  padding-top: 20px;
+}
