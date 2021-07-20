@@ -136,6 +136,19 @@
   .orcamento_dados ul {
     padding-right: 0;
   }
+  /* Contato */
+  .form {
+    padding: 15px 0;
+    padding-right: 20px;
+    text-transform: uppercase;
+  }
+  .contato_dados {
+    padding: 0;
+    padding-right: 20px;
+  }
+  .endereco {
+    padding: 0;
+  }
 }
 
 /* Final Estilo Smartphone */

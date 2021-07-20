@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Bikcraft - Portfólio</title>
 </head>
 
@@ -35,27 +36,50 @@
       <p>Conheça nossos produtos</p>
     </div>
   </section>
-  <section class="container">
+  <section class="container" data-slide="quote">
     <blockquote class="quote_cliente">
       <p>"No mundo atual a contínua busca por desenvolvimento nos levará
         a ruína, aproveite os dias em paz junto de sua bike."
       </p>
       <cite>- William Shape</cite>
     </blockquote>
+    <blockquote class="quote_cliente">
+      <p>"Muitos sacrifícios não requerem cálculos concretos de todo. É suficiente vislumbrar a posição resultante para nos convencer que o sacrifício é correto."
+      </p>
+      <cite>- Mikhail Tal</cite>
+    </blockquote>
+    <blockquote class="quote_cliente">
+      <p>"Os computadores são os únicos desafiantes que não têm uma desculpa na ponta da língua quando eu os derroto."
+      </p>
+      <cite>- Bobby Fisher</cite>
+    </blockquote>
   </section>
 
 
-  <section class="produtos">
-    <div class="container">
-      <div class="grid-8">
-        <img src="img/portfolio/retro.jpg" alt="">
-      </div>
-      <div class="grid-8">
-        <img src="img/portfolio/passeio.jpg" alt="">
-      </div>
-      <div class="grid-16">
-        <img src="img/portfolio/esporte.jpg" alt="">
-      </div>
+  <section class="portfolio">
+    <div class="container" data-slide="portfolio">
+      <ul class="portfolio_lista">
+        <li class="grid-8">
+          <img src="img/portfolio/retro.jpg" alt="">
+        </li>
+        <li class="grid-8">
+          <img src="img/portfolio/passeio.jpg" alt="">
+        </li>
+        <li class="grid-16">
+          <img src="img/portfolio/esporte.jpg" alt="">
+        </li>
+      </ul>
+      <ul class="portfolio_lista">
+        <li class="grid-8">
+          <img src="img/portfolio/retro.jpg" alt="">
+        </li>
+        <li class="grid-8">
+          <img src="img/portfolio/passeio.jpg" alt="">
+        </li>
+        <li class="grid-16">
+          <img src="img/portfolio/esporte.jpg" alt="">
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -105,6 +129,8 @@
       </div>
     </div>
   </footer>
+  <script src="js/simple-slide.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
